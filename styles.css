@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    background-image:url('https://i2-prod.mirror.co.uk/incoming/article13150515.ece/ALTERNATES/s1227b/0_PAY-Clock-over-door-to-Honby-library-Liverpool-central-library-Picton-reading-rooms.jpg') ;
+    background-size: cover;
+}
+
+#app {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.add-favorite {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
