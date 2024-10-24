@@ -16,6 +16,7 @@ export function displayBooks(books) {
         });
         gallery.appendChild(card);
     });
+
 }
 
 function addFavorite(book) {
@@ -40,7 +41,7 @@ function removeFavorite(bookKey) {
 function displayFavorites() {
     const favorites = JSON.parse(localStorage.getItem('bookFavorites')) || [];
     const favoritesContainer = document.getElementById('favorites-container');
-    favoritesContainer.innerHTML = ''; // Clear existing favorites
+    favoritesContainer.innerHTML = ''; 
 
     favorites.forEach(book => {
         const bookCard = document.createElement('div');
